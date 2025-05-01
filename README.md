@@ -60,6 +60,10 @@ Enter the end date for analysis in the format YYYY-DD-MM: 2017-01-01
 
 #### Example Output
 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1b26abfc-d672-4778-badd-23937103be8c" />
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/6c2235ed-b7cf-435d-8d5a-a88b3222f329" />
+
 ```
 Optimal portfolio weights: 
 AAPL : 13.94%
