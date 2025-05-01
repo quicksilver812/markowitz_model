@@ -27,8 +27,8 @@ This tool applies Harry Markowitz's Modern Portfolio Theory to find the optimal 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio-optimization.git
-cd portfolio-optimization
+git clone https://github.com/yourusername/markowitz_model.git
+cd markowitz_model
 
 # Install required packages
 pip install numpy pandas matplotlib yfinance scipy
@@ -38,7 +38,7 @@ pip install numpy pandas matplotlib yfinance scipy
 Run the script and follow the interactive prompts:
 
 ```bash
-python portfolio_optimizer.py
+python MyMarkowitzModel.py
 ```
 
 The program will ask you to:
