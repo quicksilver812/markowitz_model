@@ -107,13 +107,26 @@ This implementation is based on Modern Portfolio Theory, which suggests that:
 
 ## Requirements
 
-Python 3.6+, NumPy, Pandas, Matplotlib, yfinance ,SciPy
+- Python 3.6+
+- NumPy
+- Pandas
+- Matplotlib
+- yfinance
+- SciPy
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-License
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Harry Markowitz for developing Modern Portfolio Theory
+- Yahoo Finance for providing the historical stock data
+
 
 ## Acknowledgments
 
