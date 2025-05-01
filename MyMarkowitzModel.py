@@ -114,7 +114,7 @@ def show_portfolios_with_opt(returns, volatilities, sharpe_ratios, opt, log_retu
 
     weights = opt['x'].round(4)
     portfolio_returns, portfolio_volatility = portfolio_performance(weights, log_returns)
-    plt.scatter(portfolio_volatility, portfolio_returns, color = "red", marker = "*", s=100)
+    plt.scatter(portfolio_volatility, portfolio_returns, color = "red", marker = "*", s=100, label = 'Optimum Portfolio')
     plt.show()
 
 # Main method
@@ -130,7 +130,6 @@ if __name__ == '__main__':
     show_data(dataset)
     log_daily_returns = calculate_returns(dataset)
     p_weights, p_returns, p_volatilities, p_sharpe_ratios = generate_portfolios(log_daily_returns)
-    show_portfolios(p_returns, p_volatilities, p_sharpe_ratios)
     optimal_portfolio = optimize_portfolio(p_weights, log_daily_returns)
     print_optimal_portfolio(optimal_portfolio, log_daily_returns)
     show_portfolios_with_opt(p_returns, p_volatilities, p_sharpe_ratios, optimal_portfolio, log_daily_returns)
